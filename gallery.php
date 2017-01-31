@@ -22,6 +22,7 @@
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-03.jpg" title=""><img src="/images/i-03-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-04.jpg" title=""><img src="/images/i-04-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-05.jpg" title=""><img src="/images/i-05-t.jpg" alt="" /></a>
+	<a href="https://www.instagram.com/azamatabdulmanov/"><div class="gallery-instagram"><span>/azamatabdulmanov</span></div></a>
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-06.jpg" title=""><img src="/images/i-06-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-07.jpg" title=""><img src="/images/i-07-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-08.jpg" title=""><img src="/images/i-08-t.jpg" alt="" /></a>

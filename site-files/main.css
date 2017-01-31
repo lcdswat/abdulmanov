@@ -5,6 +5,7 @@ body, html {
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: lighter;
+
 }
 
 .fleft {float: left;}
@@ -89,4 +90,45 @@ a:hover {
 	margin: 0;
 	padding: 0;
 	float: left;
+}
+
+.gallery-instagram {
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin: 0; padding: 0;
+	background-image: url(/site-files/instagram-logo.svg);
+	background-size: 105px 105px;
+	background-position: center 45px;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-color: #f4f4f4;
+}
+.gallery-instagram span {
+	display: block;
+	margin: 185px 0 0 0;
+}
+
+/*Слайдер главная*/
+#slider-frame {
+	padding: 60px 0 0 390px;
+}
+
+#more-photos {
+	display: block;
+	width: 95px;
+	text-align: center;
+	border: 5px solid #d7b369;
+	font-family: 'Playfair Display', Serif;
+	font-size: 20px;
+	line-height: 24px;
+	padding: 21px 0 26px 0;
+	cursor: pointer;
+}
+
+.item {
+	width: 600px;
+	min-height: 300px;
+	max-height: 600px;
+	background-color: gray;
 }
