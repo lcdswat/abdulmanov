@@ -20,16 +20,26 @@
 		<div class="item" id="slide-one"></div>
 		<div class="item" id="slide-two"></div>
 		<div class="item" id="slide-three"></div>
-		<!-- <div><a href="/gallery"><span id="more-photos">More<br>Photos</span></a></div> -->
+		<div><a href="/gallery"><span id="more-photos">More<br>Photos</span></a></div>
+	</div>
+	<div class="owl-controls">
+        <div class="owl-nav">
+            <span class="customPrevBtn"></span><span class="customNextBtn"></span>
+        </div>
 	</div>
 </div>
 
 <script type="text/javascript">
-$(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
-  	autoWidth:true
-  });
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+	autoWidth:true
 });
+$('.customNextBtn').click(function() {
+    owl.trigger('next.owl.carousel');
+})
+$('.customPrevBtn').click(function() {
+    owl.trigger('prev.owl.carousel');
+})
 </script>
 
 

@@ -123,6 +123,7 @@ a:hover {
 	font-size: 20px;
 	line-height: 24px;
 	padding: 21px 0 26px 0;
+	margin: 280px 0 0 60px;
 	cursor: pointer;
 }
 
@@ -151,3 +152,33 @@ a:hover {
 	background-image: url(/images/slider-3.jpg);
 }
 
+.owl-controls {
+	padding: 40px 0 0 0;
+}
+
+.owl-controls span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	background-image: url(/site-files/slider-buttons.svg);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	-webkit-transition: background-color ease-in 0.2s;
+	-moz-transition: background-color ease-in 0.2s;
+	-o-transition: background-color ease-in 0.2s;
+	transition: background-color ease-in 0.2s;
+}
+
+.owl-controls span:hover {
+	background-color: #d7b369;
+}
+
+.customPrevBtn {
+	background-position: 10px center;
+	margin: 0 10px 0 -10px;
+}
+
+.customNextBtn {
+	background-position: -60px center;
+}
