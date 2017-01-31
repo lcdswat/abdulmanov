@@ -127,8 +127,27 @@ a:hover {
 }
 
 .item {
-	width: 600px;
-	min-height: 300px;
-	max-height: 600px;
-	background-color: gray;
+	height: 660px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
+
+#slide-one {
+	width: 990px;
+	height: 660px;
+	background-image: url(/images/slider-1.jpg);
+}
+
+#slide-two {
+	width: 439px;
+	height: 660px;
+	background-image: url(/images/slider-2.jpg);
+}
+
+#slide-three {
+	width: 990px;
+	height: 660px;
+	background-image: url(/images/slider-3.jpg);
+}
+

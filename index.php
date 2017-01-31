@@ -17,9 +17,9 @@
 <!-- Контент -->
 <div class="content" id="slider-frame">
 	<div class="owl-carousel owl-theme">
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="item"></div>
+		<div class="item" id="slide-one"></div>
+		<div class="item" id="slide-two"></div>
+		<div class="item" id="slide-three"></div>
 		<!-- <div><a href="/gallery"><span id="more-photos">More<br>Photos</span></a></div> -->
 	</div>
 </div>
@@ -27,9 +27,7 @@
 <script type="text/javascript">
 $(document).ready(function(){
   $('.owl-carousel').owlCarousel({
-  	autoWidth:true,
-  	margin:10,
-  	items:3
+  	autoWidth:true
   });
 });
 </script>
