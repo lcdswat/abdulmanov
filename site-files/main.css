@@ -154,6 +154,7 @@ a:hover {
 
 .owl-controls {
 	padding: 40px 0 0 0;
+	float: left;
 }
 
 .owl-controls span {
@@ -181,4 +182,19 @@ a:hover {
 
 .customNextBtn {
 	background-position: -60px center;
+}
+
+.main-text {
+	font-family: "Playfair Display", Serif;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+#main-text-one {
+	margin: 40px 0 0 120px;
+}
+
+#main-text-two {
+	margin: 40px 0 0 220px;
+	display: none;
 }
