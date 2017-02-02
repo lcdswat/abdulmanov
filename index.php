@@ -21,7 +21,7 @@
 		<div class="item" id="slide-one"></div>
 		<div class="item" id="slide-two"></div>
 		<div class="item" id="slide-three"></div>
-		<div><a href="/gallery"><span id="more-photos">More<br>Photos</span></a></div>
+		<div class="item" id="slide-four"><a href="/gallery" id="more-photos">More<br>Photos</a></div>
 	</div>
 	<div class="owl-controls">
         <div class="owl-nav">
