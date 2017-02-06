@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Contacts | Azamat Abdulmanov</title>
+<title>Other Projects | Azamat Abdulmanov</title>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 <!-- FANCYBOX -->
 <link rel="stylesheet" href="/site-files/fancybox/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
@@ -15,13 +15,13 @@
 
 <!-- Боковое меню -->
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
-<div id="active-menu" style="top: 475px;"></div>
+<div id="active-menu" style="top: 415px;"></div>
 
 <!-- Серая плашка -->
 <div id="gray-bg"></div>
 
 <div class="content">
-	Contacts
+	Projects
 </div>
 
 </body>

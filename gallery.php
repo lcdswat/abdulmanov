@@ -15,6 +15,7 @@
 
 <!-- Боковое меню -->
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
+<div id="active-menu" style="top: 295px;"></div>
 
 <div class="content">
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-01.jpg" title=""><img src="/images/i-01-t.jpg" alt="" /></a>

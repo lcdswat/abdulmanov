@@ -11,6 +11,7 @@
 
 <!-- Боковое меню -->
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
+<div id="active-menu" style="top: 235px;"></div>
 
 <!-- Серая плашка -->
 <div id="gray-bg"></div>
@@ -36,9 +37,8 @@
 		<span>—</span> Lead and Speaker «Brides Schools» in Ufa
 	</div>
 	<div class="main-text" id="main-text-two">
-		<span>—</span> Resident of «Top15Ufa: showmen's team» project<br>
-		<span>—</span> Leader of the TV project «Better once to see»<br>
-		<span>—</span> Lead and Speaker «Brides Schools» in Ufa
+		<span>—</span> Member of the leading international gatherings<br>
+		<span>—</span> Extensive experience in overseas weddings<br>&nbsp;&nbsp;&nbsp;&nbsp;&thinsp;&thinsp;and work with foreigners in Ufa
 	</div>
 	<div class="clean"></div>
 
