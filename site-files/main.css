@@ -239,3 +239,53 @@ a:hover {
 	top: 20px;
 	right: 30px;
 }
+
+/*Îòçûâû*/
+#reviews-frame {
+	min-width: 500px;
+	max-width: 2000px;
+	padding: 40px 0 0 350px;
+}
+
+.person {
+	float: left;
+	width: 140px;
+	margin: 0 20px 0 0;
+	font-size: 12px;
+	color: #9c9e9f;
+	text-align: center;
+	clear: both;
+}
+
+.person img {
+	width: 100px;
+	margin: 0 auto 0 auto;
+	border-radius: 100px;
+	margin: 0 0 20px 0;
+}
+
+.person a {
+	display: block;
+	font-family: 'Playfair Display', Serif;
+	font-size: 20px;
+	line-height: 24px;
+	margin: 0 0 5px 0;
+}
+
+.review-full {
+	width: 440px;
+	border: 5px solid #d7b369;
+	padding: 20px;
+	font-size: 14px;
+	float: left;
+	margin: 0 0 40px 0;
+}
+
+.review-short {
+	width: 280px;
+	border: 5px solid #d7b369;
+	padding: 20px;
+	font-size: 14px;
+	float: left;
+	margin: 0 40px 40px 0;
+}
