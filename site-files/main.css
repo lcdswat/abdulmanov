@@ -213,3 +213,29 @@ a:hover {
 	margin: 40px 0 0 220px;
 	display: none;
 }
+
+#short-contacts {
+	font-size: 14px;
+	color: #9c9e9f;
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+}
+
+#short-contacts a {
+	display: block;
+	color: #9c9e9f;
+}
+
+#language-switch {
+	display: block;
+	width: 20px;
+	text-align: center;
+	height: 20px;
+	font-size: 14px;
+	color: #d7b369;
+	border-bottom: 2px solid #d7b369;
+	position: fixed;
+	top: 20px;
+	right: 30px;
+}

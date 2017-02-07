@@ -28,12 +28,9 @@
 
 .fancybox-skin {
 	position: relative;
-	background: #f9f9f9;
+	background: #d7b369;
 	color: #444;
 	text-shadow: none;
-	-webkit-border-radius: 4px;
-	   -moz-border-radius: 4px;
-	        border-radius: 4px;
 }
 
 .fancybox-opened {
@@ -77,7 +74,7 @@
 	max-height: 100%;
 }
 
-#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+#fancybox-loading {
 	background-image: url(fancybox_sprite.png);
 }
 
@@ -101,12 +98,15 @@
 
 .fancybox-close {
 	position: absolute;
-	top: -18px;
-	right: -18px;
+	top: -7px;
+	right: -40px;
 	width: 36px;
 	height: 36px;
 	cursor: pointer;
 	z-index: 8040;
+	background-image: url(gallery-close.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .fancybox-nav {
@@ -143,11 +143,17 @@
 .fancybox-prev span {
 	left: 10px;
 	background-position: 0 -36px;
+	background-image: url(gallery-l.svg);
+	background-position: center center;
+	background-repeat: no-repeat; 
 }
 
 .fancybox-next span {
 	right: 10px;
 	background-position: 0 -72px;
+	background-image: url(gallery-r.svg);
+	background-position: center center;
+	background-repeat: no-repeat; 
 }
 
 .fancybox-nav:hover span {

@@ -17,6 +17,9 @@
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
 <div id="active-menu" style="top: 295px;"></div>
 
+<!-- Переключение языка -->
+<a href="/" id="language-switch">rus</a>
+
 <div class="content">
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-01.jpg" title=""><img src="/images/i-01-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-02.jpg" title=""><img src="/images/i-02-t.jpg" alt="" /></a>

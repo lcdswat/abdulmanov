@@ -16,6 +16,9 @@
 <!-- Серая плашка -->
 <div id="gray-bg"></div>
 
+<!-- Переключение языка -->
+<a href="/" id="language-switch">rus</a>
+
 <!-- Контент -->
 <div class="content" id="slider-frame">
 	<div class="owl-carousel owl-theme">
@@ -41,13 +44,14 @@
 		<span>—</span> Extensive experience in overseas weddings<br>&nbsp;&nbsp;&nbsp;&nbsp;&thinsp;&thinsp;and work with foreigners in Ufa
 	</div>
 	<div class="clean"></div>
-
 </div>
 
-<!-- Скрипт смены текста -->
-<script type="text/javascript">
-
-</script>
+<!-- Короткие контакты -->
+<div id="short-contacts">
+	<a href="/">©&nbsp;abdulmanov.com</a>
+	<a href="mailto:clever1985@mail.ru">clever1985@mail.ru</a>
+	<a href="tel:+79991234567">+7 999 123 45 67</a>
+</div>
 
 <!-- Скрипт слайдер -->
 <script type="text/javascript">
