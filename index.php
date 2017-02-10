@@ -17,7 +17,7 @@
 <div id="gray-bg"></div>
 
 <!-- Переключение языка -->
-<a href="/" id="language-switch">rus</a>
+<a href="/" id="language-switch">eng</a>
 
 <!-- Контент -->
 <div class="content" id="slider-frame">
@@ -25,7 +25,7 @@
 		<div class="item" id="slide-one"></div>
 		<div class="item" id="slide-two"></div>
 		<div class="item" id="slide-three"></div>
-		<div class="item" id="slide-four"><a href="/gallery" id="more-photos">More<br>Photos</a></div>
+		<div class="item" id="slide-four"><a href="/gallery" id="more-photos">Больше<br>фото</a></div>
 	</div>
 	<div class="owl-controls">
         <div class="owl-nav">
@@ -35,13 +35,13 @@
 
 	<!-- Текст -->
 	<div class="main-text" id="main-text-one">
-		<span>—</span> Resident of «Top15Ufa: showmen's team» project<br>
-		<span>—</span> Leader of the TV project «Better once to see»<br>
-		<span>—</span> Lead and Speaker «Brides Schools» in Ufa
+		&mdash;&nbsp;Резидент проекта &laquo;Top15Ufa: showmen&rsquo;s team&raquo;<br>
+		&mdash;&nbsp;Ведущий телепроекта &laquo;Один раз увидеть&raquo;<br>
+		&mdash;&nbsp;Ведущий и&nbsp;спикер &laquo;Школы невест&raquo; г.Уфа 
 	</div>
 	<div class="main-text" id="main-text-two">
-		<span>—</span> Member of the leading international gatherings<br>
-		<span>—</span> Extensive experience in overseas weddings<br>&nbsp;&nbsp;&nbsp;&nbsp;&thinsp;&thinsp;and work with foreigners in Ufa
+		&mdash;&nbsp;Участник международных слетов ведущих<br>
+		&mdash;&nbsp;Большой опыт работы на&nbsp;заграничных свадьбах<br><span></span>и&nbsp;работа в&nbsp;Уфе с&nbsp;иностранцами.
 	</div>
 	<div class="clean"></div>
 </div>
@@ -49,8 +49,8 @@
 <!-- Короткие контакты -->
 <div id="short-contacts">
 	<a href="/">©&nbsp;abdulmanov.com</a>
-	<a href="mailto:clever1985@mail.ru">clever1985@mail.ru</a>
-	<a href="tel:+79991234567">+7 999 123 45 67</a>
+	<a href="mailto:azamatabdulmanov@yandex.ru">azamatabdulmanov@yandex.ru</a>
+	<a href="tel:+79276366915">+7&nbsp;927&nbsp;636-69-15</a>
 </div>
 
 <!-- Скрипт слайдер -->

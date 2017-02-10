@@ -205,6 +205,11 @@ a:hover {
 	line-height: 24px;
 }
 
+.main-text span {
+	display: inline-block;
+	width: 22px;
+}
+
 #main-text-one {
 	margin: 40px 0 0 120px;
 }
@@ -229,7 +234,7 @@ a:hover {
 
 #language-switch {
 	display: block;
-	width: 20px;
+	width: 25px;
 	text-align: center;
 	height: 20px;
 	font-size: 14px;

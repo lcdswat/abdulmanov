@@ -18,7 +18,7 @@
 <div id="active-menu" style="top: 295px;"></div>
 
 <!-- Переключение языка -->
-<a href="/" id="language-switch">rus</a>
+<a href="/" id="language-switch">eng</a>
 
 <div class="content">
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-01.jpg" title=""><img src="/images/i-01-t.jpg" alt="" /></a>

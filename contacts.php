@@ -15,7 +15,7 @@
 
 <!-- Боковое меню -->
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
-<div id="active-menu" style="top: 475px;"></div>
+<div id="active-menu" style="top: 415px;"></div>
 
 <!-- Серая плашка -->
 <div id="gray-bg"></div>
