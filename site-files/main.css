@@ -11,6 +11,7 @@ body, html {
 .fleft {float: left;}
 .fright {float: right;}
 .clean {clear: both;}
+.column {width: 33%; float: left;}
 
 img {
 	margin: 0;
@@ -119,7 +120,7 @@ a:hover {
 	margin: 185px 0 0 0;
 }
 
-/*—Î‡È‰Â „Î‡‚Ì‡ˇ*/
+/*–°–ª–∞–π–¥–µ—Ä –≥–ª–∞–≤–Ω–∞—è*/
 #slider-frame {
 	padding: 60px 0 0 390px;
 }
@@ -245,7 +246,7 @@ a:hover {
 	right: 30px;
 }
 
-/*ŒÚÁ˚‚˚*/
+/*–û—Ç–∑—ã–≤—ã*/
 #reviews-frame {
 	min-width: 500px;
 	max-width: 2000px;
@@ -311,3 +312,134 @@ a:hover {
 	top: 50%;
 	right: 50px;
 }
+
+.fancy-line {
+	width: 40px;
+	height: 5px;
+	background-color: #d7b369;
+	position: relative;
+	margin: 0 0 -5px 0;
+	position: relative;
+	left: 343px;
+}
+
+/*–ö–æ–Ω—Ç–∞–∫—Ç—ã*/
+#contacts-frame {
+	width: 450px;
+	padding: 40px 40px 0 370px;
+}
+
+#contacts-frame a {
+	font-size: 22px;
+	line-height: 26px;
+}
+
+#contacts-frame .column {
+	padding: 40px 0 0 0;
+}
+
+#contacts-frame .column span {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin: 0 20px 0 0;
+	vertical-align: middle;
+	background-image: url(/site-files/social-icons.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#contacts-frame #inst span {
+	background-position: center center;
+}
+
+#contacts-frame #yt span {
+	background-position: right center;
+}
+
+
+#contacts-frame .column a {
+	font-size: 16px;
+}
+
+#contacts-frame hr {
+	width: 150px;
+	border-color: black;
+	margin: 60px auto 60px auto;
+}
+
+#form span {
+	display: block;
+	width: 210px;
+	margin: 0 auto 40px auto;
+}
+
+#form form {
+	width: 260px;
+	margin: 0 auto 0 auto;
+}
+
+#form input {
+	display: block;
+	width: 210px;
+	height: 10px;
+	margin: 0 auto 20px auto;
+	padding: 20px;
+	border: 5px solid #d7b369;
+	text-align: center;
+	outline: none;
+	background: none;
+	font-family: 'Rubik', Sans;
+	font-size: 16px;
+}
+
+#form textarea {
+	display: block;
+	outline: none;
+	width: 210px;
+	max-height: 200px;
+	max-width: 210px;
+	margin: 0 auto 20px auto;
+	padding: 20px;
+	border: 5px solid #d7b369;
+	text-align: center;
+	background: none;
+	font-family: 'Rubik', Sans;
+	font-size: 14px;
+	color: black;
+	text-align: left;
+}
+
+#form button {
+	float: right;
+	margin: 0;
+	padding: 0 0 5px 0;
+	background: none;
+	border: none;
+	font-family: 'Rubik', Sans;
+	font-size: 16px;
+	border-bottom: 2px solid #d7b369;
+	cursor: pointer;
+	-webkit-transition: color ease-in 0.2s;
+	-moz-transition: color ease-in 0.2s;
+	-o-transition: color ease-in 0.2s;
+	transition: color ease-in 0.2s;
+}
+
+#form button:hover {
+	color: #d7b369;
+}
+
+input::-webkit-input-placeholder {color:black; font-size: 14px;}
+input::-moz-placeholder          {color:black; font-size: 14px;}
+input:-moz-placeholder           {color:black; font-size: 14px;}
+input:-ms-input-placeholder      {color:black; font-size: 14px;}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
