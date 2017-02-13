@@ -20,9 +20,12 @@
 <!-- Серая плашка -->
 <div id="gray-bg"></div>
 
+<!-- Переключение языка -->
+<a href="/" id="language-switch">eng</a>
+
 <!-- Контакты фрейм -->
 <div id="contacts-frame">
-	Если у&nbsp;вас есть вопросы по&nbsp;организации<br>мероприятий, стоимости моих услуг или предложения<br>о&nbsp;сотрудничестве&nbsp;&mdash; свяжитесь со&nbsp;мной удобным<br>для вас способом:<br><br>
+	Если у&nbsp;вас есть вопросы по&nbsp;организации<br>мероприятий, стоимости моих услуг или предложения<br>о&nbsp;сотрудничестве&nbsp;&mdash; свяжитесь со&nbsp;мной удобным<br>для вас способом:<br><br><br>
 	<a href="tel:+79276366915">+7&nbsp;927&nbsp;636 69 15</a><br>
 	<a href="mailto:azamatabdulmanov@yandex.ru">azamatabdulmanov@yandex.ru</a><br>
 
@@ -38,10 +41,10 @@
 
 	<div class="clean"></div>
 
-	<hr noshade size="1px">
+	<!-- <hr noshade size="1px"> -->
 
 	<div id="form">
-		<span>Если вы&nbsp;хотите чтобы я&nbsp;сам<br>с&nbsp;вами связался заполните<br>форму ниже&nbsp;&mdash; перезвоню<br>в&nbsp;ближайшее время:</span>
+		<span>Если вы&nbsp;хотите, чтобы я&nbsp;сам с&nbsp;вами связался, заполните форму ниже: перезвоню в&nbsp;ближайшее время</span>
 
 		<form action="/site-files/contacts-send.php" method="post">
 			<input type="text" name="name" placeholder="Ваше имя" name="" maxlength="30" autocomplete="off">
@@ -49,10 +52,11 @@
 			<textarea name="text" placeholder="Ваше сообщение" rows="6"></textarea>
 			<button type="submit">Отправить</button>
 		</form>
-
 	</div>
-
 </div>
+
+<!-- Контакты фото -->
+<div id="contacts-photo"></div>
 
 </body>
 </html>
