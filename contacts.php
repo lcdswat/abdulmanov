@@ -13,16 +13,20 @@
 
 <body>
 
-<!-- ������� ���� -->
+<!-- Боковое меню -->
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
 <div id="active-menu" style="top: 415px;"></div>
 
-<!-- ����� ������ -->
+<!-- Серая плашка -->
 <div id="gray-bg"></div>
 
+<!-- Контакты фрейм -->
 <div class="content">
 	Contacts
 </div>
+
+<!-- Короткие контакты -->
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/short-contacts.html'); ?>
 
 </body>
 </html>

@@ -47,11 +47,7 @@
 </div>
 
 <!-- Короткие контакты -->
-<div id="short-contacts">
-	<a href="/">©&nbsp;abdulmanov.com</a>
-	<a href="mailto:azamatabdulmanov@yandex.ru">azamatabdulmanov@yandex.ru</a>
-	<a href="tel:+79276366915">+7&nbsp;927&nbsp;636-69-15</a>
-</div>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/short-contacts.html'); ?>
 
 <!-- Скрипт слайдер -->
 <script type="text/javascript">
