@@ -424,6 +424,7 @@ a:hover {
 	-moz-transition: color ease-in 0.2s;
 	-o-transition: color ease-in 0.2s;
 	transition: color ease-in 0.2s;
+	outline: none;
 }
 
 #form button:hover {

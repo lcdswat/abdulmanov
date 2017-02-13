@@ -44,8 +44,8 @@
 		<span>Если вы&nbsp;хотите чтобы я&nbsp;сам<br>с&nbsp;вами связался заполните<br>форму ниже&nbsp;&mdash; перезвоню<br>в&nbsp;ближайшее время:</span>
 
 		<form action="/site-files/contacts-send.php" method="post">
-			<input type="text" name="name" placeholder="Ваше имя" name="" maxlength="30">
-			<input type="tel" name="phone" placeholder="Телефон" name="" maxlength="12">
+			<input type="text" name="name" placeholder="Ваше имя" name="" maxlength="30" autocomplete="off">
+			<input type="tel" name="phone" placeholder="Телефон" name="" maxlength="12" autocomplete="off">
 			<textarea name="text" placeholder="Ваше сообщение" rows="6"></textarea>
 			<button type="submit">Отправить</button>
 		</form>
