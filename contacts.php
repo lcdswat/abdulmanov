@@ -25,7 +25,7 @@
 
 <!-- Контакты фрейм -->
 <div id="contacts-frame">
-	Если у&nbsp;вас есть вопросы по&nbsp;организации<br>мероприятий, стоимости моих услуг или предложения<br>о&nbsp;сотрудничестве&nbsp;&mdash; свяжитесь со&nbsp;мной удобным<br>для вас способом:<br><br><br>
+	Если у&nbsp;вас есть вопросы по&nbsp;организации<br>мероприятий, стоимости моих услуг или предложения о&nbsp;сотрудничестве&nbsp;&mdash; свяжитесь со&nbsp;мной удобным для&nbsp;вас&nbsp;способом:<br><br><br>
 	<a href="tel:+79276366915">+7&nbsp;927&nbsp;636 69 15</a><br>
 	<a href="mailto:azamatabdulmanov@yandex.ru">azamatabdulmanov@yandex.ru</a><br>
 

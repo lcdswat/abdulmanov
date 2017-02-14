@@ -258,7 +258,7 @@ a:hover {
 .person {
 	float: left;
 	width: 140px;
-	margin: 0 20px 0 0;
+	margin: 0 20px 20px 0;
 	font-size: 12px;
 	color: #9c9e9f;
 	text-align: center;
@@ -424,7 +424,7 @@ a:hover {
 
 #form button {
 	float: right;
-	margin: 0;
+	margin: 0 0 20px 0;
 	padding: 0 0 5px 0;
 	background: none;
 	border: none;
@@ -469,4 +469,40 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	background-repeat: no-repeat;
 	z-index: -2;
 	margin: 0 0 0 0;
+}
+
+/*Медиа*/
+@media all and (max-width: 1350px) {
+	#more-reviews {
+		display: none;
+	}
+
+	#short-contacts {
+		display: none;
+	}
+}
+
+@media all and (max-width: 1100px) {
+	#reviews-frame .fancybox-thumb {
+		display: none;
+	}
+
+	.fancy-line {
+		display: none;
+	}
+
+	.review-short {
+		width: 440px;
+		margin: 0 0 60px 0;
+	}
+}
+
+@media all and (max-height: 600px) {
+	#social {
+		display: none;
+	}
+
+	#short-contacts {
+		display: none;
+	}
 }
