@@ -17,11 +17,12 @@
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
 <div id="active-menu" style="top: 415px;"></div>
 
-<!-- Серая плашка -->
-<div id="gray-bg"></div>
 
 <!-- Переключение языка -->
 <a href="/" id="language-switch">eng</a>
+
+<!-- Серая плашка -->
+<div id="gray-bg-contacts"></div>
 
 <!-- Контакты фрейм -->
 <div id="contacts-frame">
@@ -29,14 +30,16 @@
 	<a href="tel:+79276366915">+7&nbsp;927&nbsp;636 69 15</a><br>
 	<a href="mailto:azamatabdulmanov@yandex.ru">azamatabdulmanov@yandex.ru</a><br>
 
-	<div class="column" id="vk">
-		<a href="https://vk.com/7weekends"><span></span>vk</a>
-	</div>
-	<div class="column" id="inst">
-		<a href="https://www.instagram.com/azamatabdulmanov/"><span></span>instagram</a>
-	</div>
-	<div class="column" id="yt">
-		<a href="https://www.youtube.com/channel/UCVEzmZOjtUZqRzVDxNjY0fA/featured"><span></span>youtube</a>
+	<div id="contacts-social">
+		<div class="column" id="vk">
+			<a href="https://vk.com/7weekends"><span></span>vk</a>
+		</div>
+		<div class="column" id="inst">
+			<a href="https://www.instagram.com/azamatabdulmanov/"><span></span>instagram</a>
+		</div>
+		<div class="column" id="yt">
+			<a href="https://www.youtube.com/channel/UCVEzmZOjtUZqRzVDxNjY0fA/featured"><span></span>youtube</a>
+		</div>
 	</div>
 
 	<div class="clean"></div>

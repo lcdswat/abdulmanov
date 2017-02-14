@@ -40,6 +40,15 @@ a:hover {
 	z-index: -1;
 }
 
+#gray-bg-contacts {
+	width: 530px;
+	height: 100%;
+	left: 330px;
+	background-color: #f5f5f5;
+	position: fixed;
+	z-index: -1;
+}
+
 #menu-frame {
 	width: 330px;
 	height: 100%;
@@ -127,21 +136,6 @@ a:hover {
 	padding: 60px 0 0 390px;
 }
 
-#more-photos {
-	display: block;
-	width: 95px;
-	text-align: center;
-	border: 5px solid #d7b369;
-	font-family: 'Playfair Display', Serif;
-	font-size: 20px;
-	line-height: 24px;
-	padding: 21px 0 26px 0;
-	margin: 0 80px 0 60px;
-	cursor: pointer;
-	position: relative;
-	top: 280px;
-}
-
 .item {
 	height: 660px;
 	background-size: cover;
@@ -168,6 +162,21 @@ a:hover {
 }
 
 #slide-four {
+}
+
+#more-photos {
+	display: block;
+	width: 95px;
+	text-align: center;
+	border: 5px solid #d7b369;
+	font-family: 'Playfair Display', Serif;
+	font-size: 20px;
+	line-height: 24px;
+	padding: 21px 0 26px 0;
+	margin: 0 80px 0 60px;
+	cursor: pointer;
+	position: relative;
+	top: 280px;
 }
 
 .owl-controls {
@@ -338,9 +347,12 @@ a:hover {
 	border-bottom: 2px solid lightgray;
 }
 
-#contacts-frame .column {
+#contacts-social {
 	padding: 80px 0 0 0;
-	margin: 0 0 80px 0;
+}
+
+#contacts-frame .column {
+	width: 150px;
 }
 
 #contacts-frame .column a {
@@ -384,7 +396,7 @@ a:hover {
 
 #form span {
 	display: block;
-	margin: 0 auto 20px auto;
+	margin: 80px auto 20px auto;
 }
 
 #form form {
@@ -503,6 +515,42 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	}
 
 	#short-contacts {
+		display: none;
+	}
+}
+
+/*Размер слайдера*/
+@media all and (max-height: 1000px) {
+	.item {height: 400px;}
+	#slide-one {width: 600px; height: 400px;}
+	#slide-two {width: 266px; height: 400px;}
+	#slide-three {width: 600px; height: 400px;}
+	#more-photos {top: 140px;}
+}
+
+/*Контакты на ноуте*/
+@media all and (max-height: 700px) {
+	#contacts-frame {width: 250px;}
+	#form input {width: 200px;}
+	#form textarea {width: 200px;}
+	#contacts-frame a {font-size: 18px;}
+	#contacts-frame .column {margin: 10px 0 10px 0;}
+	#contacts-frame #yt {text-align: left;}
+	#gray-bg-contacts {width: 330px;}
+}
+
+@media all and (max-width: 1500px) {
+	#contacts-frame {width: 250px;}
+	#form input {width: 200px;}
+	#form textarea {width: 200px;}
+	#contacts-frame a {font-size: 18px;}
+	#contacts-frame .column {margin: 10px 0 10px 0;}
+	#contacts-frame #yt {text-align: left;}
+	#gray-bg-contacts {width: 330px;}
+}
+
+@media all and (max-width: 1000px) {
+	#contacts-photo {
 		display: none;
 	}
 }
