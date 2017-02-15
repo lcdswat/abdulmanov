@@ -48,13 +48,18 @@ a:hover {
 }
 
 #logo {
-	width: 330px;
+	width: 237px;
 	height: 70px;
-	margin: 60px 0 100px 0;
-	background-image: url('/site-files/logo.svg');
-	background-position: top center;
+	margin: 60px auto 100px auto;
+	background-image: url('/site-files/logo-s.png');
+	background-position-x: -13746px;
 	background-repeat: no-repeat;
+	animation: 2s logo steps(59);
+}
 
+@keyframes logo {
+	0% {background-position-x: 0px;}
+	100% {background-position-x: -13983px;}
 }
 
 #menu a {

@@ -18,7 +18,7 @@
 <div id="active-menu" style="top: 355px;"></div>
 
 <!-- Серая плашка -->
-<div id="gray-bg"></div>
+<div class="gray-bg"></div>
 
 <!-- Переключение языка -->
 <a href="/" id="language-switch">eng</a>
