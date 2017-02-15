@@ -24,6 +24,12 @@
 	<div class="owl-carousel owl-theme">
 		<div class="item" id="slide-one"></div>
 		<div class="item" id="slide-two"></div>
+		<div class="item" id="slide-video-big">
+			<iframe src="https://player.vimeo.com/video/123415649?title=0&byline=0&portrait=0" width="1173" height="660" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
+		<div class="item" id="slide-video-small">
+			<iframe src="https://player.vimeo.com/video/123415649?title=0&byline=0&portrait=0" width="711" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		</div>
 		<div class="item" id="slide-three"></div>
 		<div class="item" id="slide-four"><a href="/gallery" id="more-photos">Больше<br>фото</a></div>
 	</div>
@@ -44,6 +50,13 @@
 		&mdash;&nbsp;Большой опыт работы на&nbsp;заграничных свадьбах<br><span></span>и&nbsp;работа в&nbsp;Уфе с&nbsp;иностранцами.
 	</div>
 	<div class="clean"></div>
+</div>
+
+<!-- Вертикальный фото-блок -->
+<div id="simple-photos-frame">
+	<img src="/images/slider-1.jpg">
+	<img src="/images/slider-2.jpg">
+	<img src="/images/slider-3.jpg">
 </div>
 
 <!-- Короткие контакты -->
