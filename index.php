@@ -14,7 +14,7 @@
 <div id="active-menu" style="top: 235px;"></div>
 
 <!-- Серая плашка -->
-<div id="gray-bg"></div>
+<div class="gray-bg" id="gray-bg-index"></div>
 
 <!-- Переключение языка -->
 <a href="/" id="language-switch">eng</a>
@@ -24,12 +24,12 @@
 	<div class="owl-carousel owl-theme">
 		<div class="item" id="slide-one"></div>
 		<div class="item" id="slide-two"></div>
-		<div class="item" id="slide-video-big">
+<!-- 		<div class="item" id="slide-video-big">
 			<iframe src="https://player.vimeo.com/video/123415649?title=0&byline=0&portrait=0" width="1173" height="660" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 		<div class="item" id="slide-video-small">
 			<iframe src="https://player.vimeo.com/video/123415649?title=0&byline=0&portrait=0" width="711" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		</div>
+		</div> -->
 		<div class="item" id="slide-three"></div>
 		<div class="item" id="slide-four"><a href="/gallery" id="more-photos">Больше<br>фото</a></div>
 	</div>
@@ -43,7 +43,7 @@
 	<div class="main-text" id="main-text-one">
 		&mdash;&nbsp;Резидент проекта &laquo;Top15Ufa: showmen&rsquo;s team&raquo;<br>
 		&mdash;&nbsp;Ведущий телепроекта &laquo;Один раз увидеть&raquo;<br>
-		&mdash;&nbsp;Ведущий и&nbsp;спикер &laquo;Школы невест&raquo; г.Уфа 
+		&mdash;&nbsp;Ведущий и&nbsp;спикер &laquo;Школы невест&raquo; г.&nbsp;Уфа 
 	</div>
 	<div class="main-text" id="main-text-two">
 		&mdash;&nbsp;Участник международных слетов ведущих<br>
@@ -55,8 +55,18 @@
 <!-- Вертикальный фото-блок -->
 <div id="simple-photos-frame">
 	<img src="/images/slider-1.jpg">
+	<div>
+		<ul>
+			<li>Резидент проекта &laquo;Top15Ufa:&nbsp;showmen&rsquo;s&nbsp;team&raquo;</li>
+			<li>Ведущий телепроекта &laquo;Один&nbsp;раз&nbsp;увидеть&raquo;</li>
+			<li>Ведущий и&nbsp;спикер &laquo;Школы&nbsp;невест&raquo;&nbsp;г.&nbsp;Уфа</li>
+			<li>Участник международных слетов&nbsp;ведущих</li>
+			<li>Большой опыт работы на&nbsp;заграничных свадьбах и&nbsp;работа в&nbsp;Уфе с&nbsp;иностранцами.</li>
+		</ul>
+	</div>
 	<img src="/images/slider-2.jpg">
 	<img src="/images/slider-3.jpg">
+	<a href="/gallery">Больше<br>фото</a>
 </div>
 
 <!-- Короткие контакты -->

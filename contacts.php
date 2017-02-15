@@ -22,7 +22,7 @@
 <a href="/" id="language-switch">eng</a>
 
 <!-- Серая плашка -->
-<div id="gray-bg-contacts"></div>
+<div class="gray-bg" id="gray-bg-contacts"></div>
 
 <!-- Контакты фрейм -->
 <div id="contacts-frame">
