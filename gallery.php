@@ -12,6 +12,8 @@
 </head>
 
 <body>
+<!-- Прелоадер -->
+<div id="preloader"><div id="logo-preloader"></div></div>
 
 <!-- Боковое меню -->
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
@@ -54,6 +56,13 @@
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-30.jpg" title=""><img src="/images/i-30-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-31.jpg" title=""><img src="/images/i-31-t.jpg" alt="" /></a>
 </div>
+
+<!-- убираем прелоадер -->
+<script type="text/javascript">
+	$(window).on('load', function () {
+	    setTimeout(function(){$('#preloader').fadeOut('slow')},2500);
+	});
+</script>
 
 </body>
 </html>

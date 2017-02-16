@@ -8,6 +8,8 @@
 <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
+<!-- Прелоадер -->
+<div id="preloader"><div id="logo-preloader"></div></div>
 
 <!-- Боковое меню -->
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
@@ -90,6 +92,12 @@ $('.customPrevBtn').click(function() {
 })
 </script>
 
+<!-- убираем прелоадер -->
+<script type="text/javascript">
+	$(window).on('load', function () {
+	    setTimeout(function(){$('#preloader').fadeOut('slow')},2500);
+	});
+</script>
 
 </body>
 </html>
