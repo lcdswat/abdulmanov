@@ -60,7 +60,7 @@
 <!-- убираем прелоадер -->
 <script type="text/javascript">
 	$(window).on('load', function () {
-	    setTimeout(function(){$('#preloader').fadeOut('slow')},2500);
+	    setTimeout(function(){$('#preloader').fadeOut('slow')},2300);
 	});
 </script>
 

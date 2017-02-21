@@ -12,6 +12,8 @@
 </head>
 
 <body>
+<!-- Прелоадер -->
+<div id="preloader"><div id="logo-preloader"></div></div>
 
 <!-- Боковое меню -->
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
@@ -32,7 +34,7 @@
 
 	<div id="contacts-social">
 		<div class="column" id="vk">
-			<a href="https://vk.com/7weekends"><span></span>vk</a>
+			<a href="https://vk.com/azamatabdulmanov"><span></span>vk</a>
 		</div>
 		<div class="column" id="inst">
 			<a href="https://www.instagram.com/azamatabdulmanov/"><span></span>instagram</a>
@@ -60,6 +62,13 @@
 
 <!-- Контакты фото -->
 <div id="contacts-photo"></div>
+
+<!-- убираем прелоадер -->
+<script type="text/javascript">
+	$(window).on('load', function () {
+	    setTimeout(function(){$('#preloader').fadeOut('slow')},2300);
+	});
+</script>
 
 </body>
 </html>

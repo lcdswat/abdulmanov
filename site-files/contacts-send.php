@@ -5,7 +5,7 @@
  if (isset($_POST['text'])) {$text = $_POST['text'];}
 
 /* Сюда впишите свою эл. почту */
- $address = "lcd-swat@yandex.ru";
+ $address = "azamatabdulmanov@yandex.ru";
 
 /* А здесь прописывается текст сообщения, \n - перенос строки */
  $sub = "Message from site!";

@@ -83,11 +83,11 @@ a:hover {
 	background-image: url('/site-files/logo-s.png');
 	background-position-x: -13746px;
 	background-repeat: no-repeat;
-    -webkit-animation: logo-preloader 2s steps(59);
-	-moz-animation: logo-preloader 2s steps(59);
-	-ms-animation: logo-preloader 2s steps(59);
-	-o-animation: logo-preloader 2s steps(59);
-	animation: logo-preloader 2s steps(59);
+    -webkit-animation: logo-preloader 1s steps(59);
+	-moz-animation: logo-preloader 1s steps(59);
+	-ms-animation: logo-preloader 1s steps(59);
+	-o-animation: logo-preloader 1s steps(59);
+	animation: logo-preloader 1s steps(59);
 }
 
 @keyframes logo-preloader {
