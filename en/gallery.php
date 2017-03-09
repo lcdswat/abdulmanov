@@ -13,14 +13,14 @@
 
 <body>
 <!-- Прелоадер -->
-<div id="preloader"><div id="logo-preloader"></div></div>
+<!-- <div id="preloader"><div id="logo-preloader"></div></div> -->
 
 <!-- Боковое меню -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu-en.html'); ?>
 <div id="active-menu" style="top: 295px;"></div>
 
 <!-- Переключение языка -->
-<a href="/en" id="language-switch">eng</a>
+<a href="/" id="language-switch">rus</a>
 
 <div class="content">
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-02.jpg" title=""><img src="/images/i-02-t.jpg" alt="" /></a>

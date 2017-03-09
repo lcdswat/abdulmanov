@@ -203,6 +203,28 @@ a:hover {
 #slide-four {
 }
 
+#play-video {
+	display: block;
+	width: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -40px 0 0 -40px;
+	height: 80px;
+	border: 5px solid #d7b369;
+	background-image: url(/site-files/play-button.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-transition: box-shadow ease-in 0.2s;
+	-moz-transition: box-shadow ease-in 0.2s;
+	-o-transition: box-shadow ease-in 0.2s;
+	transition: box-shadow ease-in 0.2s;
+}
+
+#play-video:hover {
+	box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
 #more-photos {
 	display: block;
 	width: 95px;
@@ -252,7 +274,7 @@ a:hover {
 
 .main-text {
 	font-family: "Playfair Display", Serif;
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 24px;
 }
 
