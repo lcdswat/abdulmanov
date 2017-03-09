@@ -45,7 +45,7 @@
 &mdash;&nbsp;Ведущий телепроекта &laquo;Один раз увидеть&raquo;<br>
 	</div>
 	<div class="main-text" id="main-text-two">
-&mdash;&nbsp;Большой опыт работы на&nbsp;заграничных свадьбах и&nbsp;с&nbsp;иностранными гостями в&nbsp;Уфе.<br>
+&mdash;&nbsp;Большой опыт работы на&nbsp;заграничных свадьбах и&nbsp;с&nbsp;иностранными гостями в&nbsp;Уфе<br>
 &mdash;&nbsp;Ведущий и&nbsp;спикер &laquo;Школы невест&raquo; г. Уфа<br>
 &mdash;&nbsp;Участник международных форумов ивент-индустрии и&nbsp;мастер-классов<br>
 &mdash;&nbsp;Организатор велоэкскурсий
@@ -58,11 +58,13 @@
 	<img src="/images/slider-1.jpg">
 	<div>
 		<ul>
-			<li>Резидент проекта &laquo;Top15Ufa:&nbsp;showmen&rsquo;s&nbsp;team&raquo;</li>
-			<li>Ведущий телепроекта &laquo;Один&nbsp;раз&nbsp;увидеть&raquo;</li>
-			<li>Ведущий и&nbsp;спикер &laquo;Школы&nbsp;невест&raquo;&nbsp;г.&nbsp;Уфа</li>
-			<li>Участник международных слетов&nbsp;ведущих</li>
-			<li>Большой опыт работы на&nbsp;заграничных свадьбах и&nbsp;работа в&nbsp;Уфе с&nbsp;иностранцами.</li>
+			<li>Резидент проекта &laquo;Top15Ufa: showmen&rsquo;s team&raquo;</li>
+			<li>Опыт ведения&nbsp;&mdash; более 6&nbsp;лет и&nbsp;более 100 свадеб</li>
+			<li>Ведущий телепроекта &laquo;Один раз увидеть&raquo;</li>
+			<li>Большой опыт работы на&nbsp;заграничных свадьбах и&nbsp;с&nbsp;иностранными гостями в&nbsp;Уфе</li>
+			<li>Ведущий и&nbsp;спикер &laquo;Школы невест&raquo; г. Уфа</li>
+			<li>Участник международных форумов ивент-индустрии и&nbsp;мастер-классов</li>
+			<li>Организатор велоэкскурсий</li>
 		</ul>
 	</div>
 	<img src="/images/slider-2.jpg">
