@@ -13,7 +13,7 @@
 
 <body>
 <!-- Прелоадер -->
-<div id="preloader"><div id="logo-preloader"></div></div>
+<!-- <div id="preloader"><div id="logo-preloader"></div></div> -->
 
 <!-- Боковое меню -->
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
