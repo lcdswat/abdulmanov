@@ -15,14 +15,14 @@
 <div id="preloader"><div id="logo-preloader"></div></div>
 
 <!-- Боковое меню -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu-en.html'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu-rus.html'); ?>
 <div id="active-menu" style="top: 235px;"></div>
 
 <!-- Серая плашка -->
 <div class="gray-bg" id="gray-bg-index"></div>
 
 <!-- Переключение языка -->
-<a href="/" id="language-switch">rus</a>
+<a href="/" id="language-switch">eng</a>
 
 <!-- Контент -->
 <div class="content" id="slider-frame">
@@ -30,7 +30,7 @@
 		<div class="item" id="slide-one"></div>
 		<div class="item" id="slide-two"><a class="fancybox-media" href="https://vimeo.com/123415649" id="play-video"></a></div>
 		<div class="item" id="slide-three"></div>
-		<div class="item" id="slide-four"><a href="/en/gallery" id="more-photos">More<br>photos</a></div>
+		<div class="item" id="slide-four"><a href="/gallery" id="more-photos">Больше<br>фото</a></div>
 	</div>
 	<div class="owl-controls">
         <div class="owl-nav">
@@ -40,15 +40,15 @@
 
 	<!-- Текст -->
 	<div class="main-text" id="main-text-one">
-&mdash;&nbsp;The &laquo;Top15Ufa&raquo; project resident<br>
-&mdash;&nbsp;More than 100 weddings&rsquo; Organisator and leading them since 2011<br>
-&mdash;&nbsp;The &laquo;Better to&nbsp;see once&raquo; TV-program anchor<br>
+&mdash;&nbsp;Резидент проекта &laquo;Top15Ufa: showmen&rsquo;s team&raquo;<br>
+&mdash;&nbsp;Опыт ведения&nbsp;&mdash; более 6&nbsp;лет и&nbsp;более 100 свадеб<br>
+&mdash;&nbsp;Ведущий телепроекта &laquo;Один раз увидеть&raquo;<br>
 	</div>
 	<div class="main-text" id="main-text-two">
-&mdash;&nbsp;the Speaker of &laquo;The Brides school&raquo; in&nbsp;Ufa<br>
-&mdash;&nbsp;the participant of&nbsp;international event-industry forums and different workshops in&nbsp;this sphere<br>
-&mdash;&nbsp;experienced in&nbsp;weddings&rsquo; leading abroad and with foreigners here, in&nbsp;Ufa<br>
-&mdash;&nbsp;the provider of&nbsp;excursions by&nbsp;bike
+&mdash;&nbsp;Большой опыт работы на&nbsp;заграничных свадьбах и&nbsp;с&nbsp;иностранными гостями в&nbsp;Уфе<br>
+&mdash;&nbsp;Ведущий и&nbsp;спикер &laquo;Школы невест&raquo; г. Уфа<br>
+&mdash;&nbsp;Участник международных форумов ивент-индустрии и&nbsp;мастер-классов<br>
+&mdash;&nbsp;Организатор велоэкскурсий
 	</div>
 	<div class="clean"></div>
 </div>
@@ -58,13 +58,13 @@
 	<img src="/images/slider-1.jpg">
 	<div>
 		<ul>
-			<li>The &laquo;Top15Ufa&raquo; project resident</li>
-			<li>More than 100 weddings&rsquo; Organisator and leading them since 2011</li>
-			<li>The &laquo;Better to&nbsp;see once&raquo; TV-program anchor</li>
-			<li>The Speaker of &laquo;The Brides school&raquo; in&nbsp;Ufa</li>
-			<li>The participant of&nbsp;international event-industry forums and different workshops in&nbsp;this sphere</li>
-			<li>Experienced in&nbsp;weddings&rsquo; leading abroad and with foreigners here, in&nbsp;Ufa</li>
-			<li>The provider of&nbsp;excursions by&nbsp;bike</li>
+			<li>Резидент проекта &laquo;Top15Ufa: showmen&rsquo;s team&raquo;</li>
+			<li>Опыт ведения&nbsp;&mdash; более 6&nbsp;лет и&nbsp;более 100 свадеб</li>
+			<li>Ведущий телепроекта &laquo;Один раз увидеть&raquo;</li>
+			<li>Большой опыт работы на&nbsp;заграничных свадьбах и&nbsp;с&nbsp;иностранными гостями в&nbsp;Уфе</li>
+			<li>Ведущий и&nbsp;спикер &laquo;Школы невест&raquo; г. Уфа</li>
+			<li>Участник международных форумов ивент-индустрии и&nbsp;мастер-классов</li>
+			<li>Организатор велоэкскурсий</li>
 		</ul>
 	</div>
 	<img src="/images/slider-2.jpg">

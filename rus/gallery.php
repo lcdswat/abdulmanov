@@ -8,6 +8,7 @@
 <script type="text/javascript" src="/site-files/fancybox/source/jquery.fancybox.pack.js?v=2.1.6"></script>
 <link rel="stylesheet" href="/site-files/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 <script type="text/javascript" src="/site-files/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="/site-files/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 <script type="text/javascript" src="/site-files/fancybox-load.js"></script>
 </head>
 
@@ -16,11 +17,11 @@
 <!-- <div id="preloader"><div id="logo-preloader"></div></div> -->
 
 <!-- Боковое меню -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu-en.html'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu-rus.html'); ?>
 <div id="active-menu" style="top: 295px;"></div>
 
 <!-- Переключение языка -->
-<a href="/" id="language-switch">rus</a>
+<a href="/" id="language-switch">eng</a>
 
 <div class="content">
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-02.jpg" title=""><img src="/images/i-02-t.jpg" alt="" /></a>

@@ -8,6 +8,7 @@
 <script type="text/javascript" src="/site-files/fancybox/source/jquery.fancybox.pack.js?v=2.1.6"></script>
 <link rel="stylesheet" href="/site-files/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 <script type="text/javascript" src="/site-files/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="/site-files/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 <script type="text/javascript" src="/site-files/fancybox-load.js"></script>
 </head>
 
@@ -20,7 +21,7 @@
 <div id="active-menu" style="top: 295px;"></div>
 
 <!-- Переключение языка -->
-<a href="/en" id="language-switch">eng</a>
+<a href="/rus" id="language-switch">rus</a>
 
 <div class="content">
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-02.jpg" title=""><img src="/images/i-02-t.jpg" alt="" /></a>
@@ -28,6 +29,9 @@
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-04.jpg" title=""><img src="/images/i-04-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-05.jpg" title=""><img src="/images/i-05-t.jpg" alt="" /></a>
 	<a href="https://www.instagram.com/azamatabdulmanov/"><div class="gallery-instagram"><span>/azamatabdulmanov</span></div></a>
+
+	<a class="fancybox-media gallery-video" href="https://vimeo.com/123415649"><img src="/images/i-05-t.jpg" alt="" /></a>
+	
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-06.jpg" title=""><img src="/images/i-06-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-07.jpg" title=""><img src="/images/i-07-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-08.jpg" title=""><img src="/images/i-08-t.jpg" alt="" /></a>
@@ -60,6 +64,19 @@
 	$(window).on('load', function () {
 	    setTimeout(function(){$('#preloader').fadeOut('slow')},2300);
 	});
+</script>
+
+<!-- вызов fancy для видео -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.fancybox-media').fancybox({
+		openEffect  : 'none',
+		closeEffect : 'none',
+		helpers : {
+			media : {}
+		}
+	});
+});
 </script>
 
 </body>

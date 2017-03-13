@@ -16,19 +16,19 @@
 <!-- <div id="preloader"><div id="logo-preloader"></div></div> -->
 
 <!-- Боковое меню -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu-en.html'); ?>
-<div id="active-menu" style="top: 355px;"></div>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu-rus.html'); ?>
+<div id="active-menu" style="top: 415px;"></div>
 
 
 <!-- Переключение языка -->
-<a href="/" id="language-switch">rus</a>
+<a href="/" id="language-switch">eng</a>
 
 <!-- Серая плашка -->
 <div class="gray-bg" id="gray-bg-contacts"></div>
 
 <!-- Контакты фрейм -->
 <div id="contacts-frame">
-	If you have a question, comment or a business suggestions, please do not hesitate to contact us.<br><br><br>
+	Если у&nbsp;вас есть вопросы по&nbsp;организации<br>мероприятий, стоимости моих услуг или предложения о&nbsp;сотрудничестве&nbsp;&mdash; свяжитесь со&nbsp;мной удобным для&nbsp;вас&nbsp;способом:<br><br><br>
 	<a href="tel:+79276366915">+7&nbsp;927&nbsp;636 69 15</a><br>
 	<a href="mailto:azamatabdulmanov@yandex.ru">azamatabdulmanov@yandex.ru</a><br>
 
@@ -49,13 +49,13 @@
 	<!-- <hr noshade size="1px"> -->
 
 	<div id="form">
-		<span>If you want me to contact you, please fill in the form below, I'll&nbsp;call you back</span>
+		<span>Если вы&nbsp;хотите, чтобы я&nbsp;сам с&nbsp;вами связался, заполните форму ниже: перезвоню в&nbsp;ближайшее время</span>
 
 		<form action="/site-files/contacts-send.php" method="post">
-			<input type="text" name="name" placeholder="Name" name="" maxlength="30" autocomplete="off">
-			<input type="tel" name="phone" placeholder="E-mail" name="" maxlength="12" autocomplete="off">
-			<textarea name="text" placeholder="Message" rows="6"></textarea>
-			<button type="submit">Send</button>
+			<input type="text" name="name" placeholder="Ваше имя" name="" maxlength="30" autocomplete="off">
+			<input type="tel" name="phone" placeholder="Телефон" name="" maxlength="12" autocomplete="off">
+			<textarea name="text" placeholder="Ваше сообщение" rows="6"></textarea>
+			<button type="submit">Отправить</button>
 		</form>
 	</div>
 </div>

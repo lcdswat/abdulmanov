@@ -16,14 +16,14 @@
 <!-- <div id="preloader"><div id="logo-preloader"></div></div> -->
 
 <!-- Боковое меню -->
-<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu.html'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/side-menu-rus.html'); ?>
 <div id="active-menu" style="top: 355px;"></div>
 
 <!-- Серая плашка -->
 <div class="gray-bg"></div>
 
 <!-- Переключение языка -->
-<a href="/en" id="language-switch">eng</a>
+<a href="/" id="language-switch">eng</a>
 
 <!-- Отзывы фрейм -->
 <div class="content" id="reviews-frame">
