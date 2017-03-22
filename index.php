@@ -9,6 +9,11 @@
 <link rel="stylesheet" href="/site-files/fancybox/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
 <script type="text/javascript" src="/site-files/fancybox/source/jquery.fancybox.pack.js?v=2.1.6"></script>
 <script type="text/javascript" src="/site-files/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<!-- Бейдж -->
+<meta property="og:url" content="https://abdulmanov.com/" />
+<meta property="og:title" content="Azamat Abdulmanov" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="/site-files/bage.png" />
 </head>
 <body>
 <!-- Прелоадер -->
