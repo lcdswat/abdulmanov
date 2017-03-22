@@ -30,7 +30,7 @@
 		<div class="item" id="slide-one"></div>
 		<div class="item" id="slide-two"><a class="fancybox-media" href="https://vimeo.com/123415649" id="play-video"></a></div>
 		<div class="item" id="slide-three"></div>
-		<div class="item" id="slide-four"><a href="/gallery" id="more-photos">Больше<br>фото</a></div>
+		<div class="item" id="slide-four"><a href="/rus/gallery" id="more-photos">Больше<br>фото</a></div>
 	</div>
 	<div class="owl-controls">
         <div class="owl-nav">

@@ -35,7 +35,7 @@
 		<div class="item" id="slide-one"></div>
 		<div class="item" id="slide-two"><a class="fancybox-media" href="https://vimeo.com/123415649" id="play-video"></a></div>
 		<div class="item" id="slide-three"></div>
-		<div class="item" id="slide-four"><a href="/en/gallery" id="more-photos">More<br>photos</a></div>
+		<div class="item" id="slide-four"><a href="/gallery" id="more-photos">More<br>photos</a></div>
 	</div>
 	<div class="owl-controls">
         <div class="owl-nav">
