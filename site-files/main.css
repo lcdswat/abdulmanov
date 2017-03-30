@@ -225,11 +225,28 @@ a:hover {
 	box-shadow: 0 0 15px rgba(0,0,0,0.4);
 }
 
+.gallery-video {
+	display: block;
+	width: 250px;
+	height: 250px;
+	float: left;
+}
+
+.gallery-video span {
+	display: block;
+	width: 250px;
+	height: 250px;
+	margin: 0 0 -250px 0;
+	position: relative;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-image: url(/site-files/gallery-video-border.svg);
+}
+
 .gallery-video img {
 	display: block;
 	margin: 0;
 	padding: 0;
-	float: left;
 }
 
 #more-photos {
