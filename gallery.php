@@ -26,7 +26,6 @@
 		<img src="/images/v-01-t.jpg" alt="" />
 	</a>
 
-<<<<<<< HEAD
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-32.jpg" title=""><img src="/images/i-32-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-35.jpg" title=""><img src="/images/i-35-t.jpg" alt="" /></a>
 
@@ -68,39 +67,6 @@
 	<a class="fancybox-media gallery-video" data-fancybox href="https://vimeo.com/201407567">
 		<img src="/images/v-04-t.jpg" alt="" />
 	</a>
-=======
-	<a class="fancybox-media gallery-video" href="https://vimeo.com/123415649">
-		<span></span>
-		<img src="/images/v-01-t.jpg" alt="" />
-	</a>
-		
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-06.jpg" title=""><img src="/images/i-06-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-07.jpg" title=""><img src="/images/i-07-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-08.jpg" title=""><img src="/images/i-08-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-10.jpg" title=""><img src="/images/i-10-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-11.jpg" title=""><img src="/images/i-11-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-12.jpg" title=""><img src="/images/i-12-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-13.jpg" title=""><img src="/images/i-13-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-14.jpg" title=""><img src="/images/i-14-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-15.jpg" title=""><img src="/images/i-15-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-16.jpg" title=""><img src="/images/i-16-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-17.jpg" title=""><img src="/images/i-17-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-18.jpg" title=""><img src="/images/i-18-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-19.jpg" title=""><img src="/images/i-19-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-20.jpg" title=""><img src="/images/i-20-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-21.jpg" title=""><img src="/images/i-21-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-22.jpg" title=""><img src="/images/i-22-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-23.jpg" title=""><img src="/images/i-23-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-24.jpg" title=""><img src="/images/i-24-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-25.jpg" title=""><img src="/images/i-25-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-26.jpg" title=""><img src="/images/i-26-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-27.jpg" title=""><img src="/images/i-27-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-28.jpg" title=""><img src="/images/i-28-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-29.jpg" title=""><img src="/images/i-29-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-30.jpg" title=""><img src="/images/i-30-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-31.jpg" title=""><img src="/images/i-31-t.jpg" alt="" /></a>
-</div>
->>>>>>> e5ce99f65ec9d4add764ca215f32a041b11ab276
 
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-13.jpg" title=""><img src="/images/i-13-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-14.jpg" title=""><img src="/images/i-14-t.jpg" alt="" /></a>
