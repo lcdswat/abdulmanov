@@ -21,6 +21,7 @@
 <a href="/" id="language-switch">eng</a>
 
 <div class="content">
+<<<<<<< HEAD
 	<!-- Видео -->
 	<a class="fancybox-media gallery-video" data-fancybox href="https://vimeo.com/123415649">
 		<img src="/images/v-01-t.jpg" alt="" />
@@ -45,6 +46,45 @@
 	<a class="fancybox-media gallery-video" data-fancybox href="https://vimeo.com/186487404">
 		<img src="/images/v-02-t.jpg" alt="" />
 	</a>
+=======
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-02.jpg" title=""><img src="/images/i-02-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-03.jpg" title=""><img src="/images/i-03-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-04.jpg" title=""><img src="/images/i-04-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-05.jpg" title=""><img src="/images/i-05-t.jpg" alt="" /></a>
+	<a href="https://www.instagram.com/azamatabdulmanov/"><div class="gallery-instagram"><span>/azamatabdulmanov</span></div></a>
+
+	<a class="fancybox-media gallery-video" href="https://vimeo.com/123415649">
+		<span></span>
+		<img src="/images/v-01-t.jpg" alt="" />
+	</a>
+	
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-06.jpg" title=""><img src="/images/i-06-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-07.jpg" title=""><img src="/images/i-07-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-08.jpg" title=""><img src="/images/i-08-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-10.jpg" title=""><img src="/images/i-10-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-11.jpg" title=""><img src="/images/i-11-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-12.jpg" title=""><img src="/images/i-12-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-13.jpg" title=""><img src="/images/i-13-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-14.jpg" title=""><img src="/images/i-14-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-15.jpg" title=""><img src="/images/i-15-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-16.jpg" title=""><img src="/images/i-16-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-17.jpg" title=""><img src="/images/i-17-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-18.jpg" title=""><img src="/images/i-18-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-19.jpg" title=""><img src="/images/i-19-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-20.jpg" title=""><img src="/images/i-20-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-21.jpg" title=""><img src="/images/i-21-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-22.jpg" title=""><img src="/images/i-22-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-23.jpg" title=""><img src="/images/i-23-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-24.jpg" title=""><img src="/images/i-24-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-25.jpg" title=""><img src="/images/i-25-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-26.jpg" title=""><img src="/images/i-26-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-27.jpg" title=""><img src="/images/i-27-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-28.jpg" title=""><img src="/images/i-28-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-29.jpg" title=""><img src="/images/i-29-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-30.jpg" title=""><img src="/images/i-30-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" rel="fancybox-thumb" href="/images/i-31.jpg" title=""><img src="/images/i-31-t.jpg" alt="" /></a>
+</div>
+>>>>>>> e5ce99f65ec9d4add764ca215f32a041b11ab276
 
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-04.jpg" title=""><img src="/images/i-04-t.jpg" alt="" /></a>
 	
@@ -94,6 +134,19 @@
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-30.jpg" title=""><img src="/images/i-30-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-31.jpg" title=""><img src="/images/i-31-t.jpg" alt="" /></a>
 </div>
+
+<!-- вызов fancy для видео -->
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.fancybox-media').fancybox({
+		openEffect  : 'none',
+		closeEffect : 'none',
+		helpers : {
+			media : {}
+		}
+	});
+});
+</script>
 
 </body>
 </html>
