@@ -201,28 +201,33 @@ a:hover {
 }
 
 #slide-four {
+	width: 1050px;
+	height: 700px;
+	background-image: url(/images/slider-4.jpg);
 }
 
-#play-video {
-	display: block;
-	width: 80px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -40px 0 0 -40px;
-	height: 80px;
-	border: 5px solid #d7b369;
-	background-image: url(/site-files/play-button.svg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	-webkit-transition: box-shadow ease-in 0.2s;
-	-moz-transition: box-shadow ease-in 0.2s;
-	-o-transition: box-shadow ease-in 0.2s;
-	transition: box-shadow ease-in 0.2s;
+#slide-five {
+	width: 1050px;
+	height: 700px;
+	background-image: url(/images/slider-5.jpg);
 }
 
-#play-video:hover {
-	box-shadow: 0 0 15px rgba(0,0,0,0.4);
+#slide-six {
+	width: 1050px;
+	height: 700px;
+	background-image: url(/images/slider-6.jpg);
+}
+
+#slide-seven {
+	width: 1050px;
+	height: 700px;
+	background-image: url(/images/slider-7.jpg);
+}
+
+#slide-eight {
+	width: 1050px;
+	height: 700px;
+	background-image: url(/images/slider-8.jpg);
 }
 
 .gallery-video img {
@@ -420,7 +425,8 @@ a:hover {
 }
 
 #contacts-frame .column {
-	width: 150px;
+	width: 112px;
+	text-align: center;
 }
 
 #contacts-frame .column a {
@@ -432,25 +438,23 @@ a:hover {
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	margin: 0 20px 0 0;
+	/*margin: 0 20px 0 0;*/
 	vertical-align: middle;
 	background-image: url(/site-files/social-icons.svg);
 	background-repeat: no-repeat;
-	background-position: left center;
+}
+
+#contacts-frame #fb span {
+	background-position: -240px center;
 }
 
 #contacts-frame #inst span {
-	background-position: center center;
+	background-position: -80px center;
 }
 
 #contacts-frame #yt span {
-	background-position: right center;
+	background-position: -160px center;
 }
-
-#contacts-frame #yt {
-	text-align: right;
-}
-
 
 #contacts-frame .column a {
 	font-size: 16px;
@@ -620,7 +624,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	}
 }
 
-@media all and (max-height: 600px) {
+@media all and (max-height: 670px) {
 	#social {
 		display: none;
 	}
@@ -663,7 +667,6 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	#form textarea {width: 200px;}
 	#contacts-frame a {font-size: 18px;}
 	#contacts-frame .column {margin: 10px 0 10px 0;}
-	#contacts-frame #yt {text-align: left;}
 	#gray-bg-contacts {width: 330px;}
 }
 
@@ -672,8 +675,7 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	#form input {width: 200px;}
 	#form textarea {width: 200px;}
 	#contacts-frame a {font-size: 18px;}
-	#contacts-frame .column {margin: 10px 0 10px 0;}
-	#contacts-frame #yt {text-align: left;}
+	#contacts-frame .column {width: 25%; margin: 10px 0 10px 0;}
 	#gray-bg-contacts {width: 330px;}
 }
 

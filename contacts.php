@@ -34,13 +34,16 @@
 
 	<div id="contacts-social">
 		<div class="column" id="vk">
-			<a href="https://vk.com/azamatabdulmanov"><span></span>vk</a>
+			<a href="https://vk.com/azamatabdulmanov"><span></span></a>
+		</div>
+		<div class="column" id="fb">
+			<a href="https://www.facebook.com/azamat.abdulmanov.3"><span></span></a>
 		</div>
 		<div class="column" id="inst">
-			<a href="https://www.instagram.com/azamatabdulmanov/"><span></span>instagram</a>
+			<a href="https://www.instagram.com/azamatabdulmanov/"><span></span></a>
 		</div>
 		<div class="column" id="yt">
-			<a href="https://www.youtube.com/channel/UCVEzmZOjtUZqRzVDxNjY0fA/featured"><span></span>youtube</a>
+			<a href="https://www.youtube.com/channel/UCVEzmZOjtUZqRzVDxNjY0fA/featured"><span></span></a>
 		</div>
 	</div>
 

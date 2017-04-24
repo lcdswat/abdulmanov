@@ -6,9 +6,11 @@
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 <script src="/site-files/owlcarousel/dist/owl.carousel.min.js"></script>
 <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<link rel="stylesheet" href="/site-files/fancybox/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
-<script type="text/javascript" src="/site-files/fancybox/source/jquery.fancybox.pack.js?v=2.1.6"></script>
-<script type="text/javascript" src="/site-files/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<!-- Бейдж -->
+<meta property="og:url" content="https://abdulmanov.com/" />
+<meta property="og:title" content="Azamat Abdulmanov" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="/site-files/bage.png" />
 </head>
 <body>
 <!-- Прелоадер -->
@@ -28,9 +30,14 @@
 <div class="content" id="slider-frame">
 	<div class="owl-carousel owl-theme">
 		<div class="item" id="slide-one"></div>
-		<div class="item" id="slide-two"><a class="fancybox-media" href="https://vimeo.com/123415649" id="play-video"></a></div>
+		<div class="item" id="slide-two"></div>
 		<div class="item" id="slide-three"></div>
-		<div class="item" id="slide-four"><a href="/rus/gallery" id="more-photos">Больше<br>фото</a></div>
+		<div class="item" id="slide-four"></div>
+		<div class="item" id="slide-five"></div>
+		<div class="item" id="slide-six"></div>
+		<div class="item" id="slide-seven"></div>
+		<div class="item" id="slide-eight"></div>
+		<div class="item" id="slide-nine"><a href="/rus/gallery" id="more-photos">Больше<br>фото</a></div>
 	</div>
 	<div class="owl-controls">
         <div class="owl-nav">
@@ -69,6 +76,11 @@
 	</div>
 	<img src="/images/slider-2.jpg">
 	<img src="/images/slider-3.jpg">
+	<img src="/images/slider-4.jpg">
+	<img src="/images/slider-5.jpg">
+	<img src="/images/slider-6.jpg">
+	<img src="/images/slider-7.jpg">
+	<img src="/images/slider-8.jpg">
 	<a href="/gallery">Больше<br>фото</a>
 </div>
 
