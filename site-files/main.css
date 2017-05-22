@@ -654,10 +654,15 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 /*Размер слайдера*/
 /*1600x900*/
 @media all and (max-height: 800px) {
-	#slide-one {width: 825; height: 550px;}
+	#slide-one {width: 825px; height: 550px;}
 	#slide-two {width: 360px; height: 550px;}
-	#slide-three {width: 825; height: 550px;}
-	#more-photos {top: 140px;}
+	#slide-three {width: 825px; height: 550px;}
+	#slide-four {width: 825px; height: 550px;}
+	#slide-five {width: 825px; height: 550px;}
+	#slide-six {width: 825px; height: 550px;}
+	#slide-seven {width: 825px; height: 550px;}
+	#slide-eight {width: 825px; height: 550px;}
+	#more-photos {top: 225px;}
 }
 
 /*1366x768*/
@@ -665,6 +670,11 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	#slide-one {width: 630px; height: 420px;}
 	#slide-two {width: 275px; height: 420px;}
 	#slide-three {width: 630px; height: 420px;}
+	#slide-four {width: 630px; height: 420px;}
+	#slide-five {width: 630px; height: 420px;}
+	#slide-six {width: 630px; height: 420px;}
+	#slide-seven {width: 630px; height: 420px;}
+	#slide-eight {width: 630px; height: 420px;}
 	#more-photos {top: 140px;}
 }
 
@@ -673,6 +683,11 @@ input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s eas
 	#slide-one {width: 570px; height: 380px;}
 	#slide-two {width: 249px; height: 380px;}
 	#slide-three {width: 570px; height: 380px;}
+	#slide-four {width: 570px; height: 380px;}
+	#slide-five {width: 570px; height: 380px;}
+	#slide-six {width: 570px; height: 380px;}
+	#slide-seven {width: 570px; height: 380px;}
+	#slide-eight {width: 570px; height: 380px;}
 	#more-photos {top: 140px;}
 }
 
