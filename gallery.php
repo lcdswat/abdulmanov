@@ -26,14 +26,24 @@
 		<img src="/images/v-01-t.jpg" alt="" />
 	</a>
 
-	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-32.jpg" title=""><img src="/images/i-32-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-35.jpg" title=""><img src="/images/i-35-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-40.jpg" title=""><img src="/images/i-40-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-41.jpg" title=""><img src="/images/i-41-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-42.jpg" title=""><img src="/images/i-42-t.jpg" alt="" /></a>
 
 	<!-- Ссылка на инстаграм -->
 	<a href="https://www.instagram.com/azamatabdulmanov/">
 		<div class="gallery-instagram"><span>/azamatabdulmanov</span></div>
 	</a>
 
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-43.jpg" title=""><img src="/images/i-43-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-44.jpg" title=""><img src="/images/i-44-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-45.jpg" title=""><img src="/images/i-45-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-46.jpg" title=""><img src="/images/i-46-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-47.jpg" title=""><img src="/images/i-47-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-48.jpg" title=""><img src="/images/i-48-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-49.jpg" title=""><img src="/images/i-49-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-32.jpg" title=""><img src="/images/i-32-t.jpg" alt="" /></a>
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-35.jpg" title=""><img src="/images/i-35-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-36.jpg" title=""><img src="/images/i-36-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-37.jpg" title=""><img src="/images/i-37-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-38.jpg" title=""><img src="/images/i-38-t.jpg" alt="" /></a>
