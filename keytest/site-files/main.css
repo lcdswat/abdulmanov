@@ -1,0 +1,235 @@
+body {
+	background-color: #A85858;
+	margin: 0;
+	padding: 100px 100px 0 100px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+#preloader {
+	width: 100%;
+	height: 100%;
+	background-color: #A85858;
+	position: fixed;
+	margin: -100px;
+	z-index: 999;
+	background-image: url(site-files/preloader.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#load-up {
+	opacity: 0;
+	position: relative;
+	bottom: 40px;
+	-webkit-transition: opacity ease 0.4s, bottom ease 0.4s;
+	-moz-transition: opacity ease 0.4s, bottom ease 0.4s;
+	-o-transition: opacity ease 0.4s, bottom ease 0.4s;
+	transition: opacity ease 0.4s, bottom ease 0.4s;
+}
+
+#load-down {
+	opacity: 0;
+	position: relative;
+	top: 40px;
+	-webkit-transition: opacity ease 0.4s, top ease 0.4s;
+	-moz-transition: opacity ease 0.4s, top ease 0.4s;
+	-o-transition: opacity ease 0.4s, top ease 0.4s;
+	transition: opacity ease 0.4s, top ease 0.4s;
+}
+
+.clean {clear: both;}
+.fleft {float: left;}
+.fright {float: right;}
+
+h1 {
+	display: block;
+	margin: 0;
+	padding: 0 0 120px 0;
+	font-weight: 900;
+	font-size: 64px;
+	float: left;
+}
+
+h1 a {
+	color: white;
+	text-decoration: none;
+}
+
+use {
+	-webkit-transition: fill ease 0.2s;
+	-moz-transition: fill ease 0.2s;
+	-o-transition: fill ease 0.2s;
+	transition: fill ease 0.2s;
+}
+
+use.pressed {
+	fill: white;
+}
+
+use.led {
+	fill: green;
+}
+
+use.pressed-key {
+	fill: gray;
+}
+
+svg {
+	width: 100%;
+	max-width: 1338px;
+	min-width: 350px;
+	display: block;
+}
+
+#a-little-one {
+	max-width: 875px;
+}
+
+#out {
+	font-size: 140px;
+	height: 130px;
+	font-weight: 100;
+	line-height: 130px;
+}
+
+#cursor {
+	display: block;
+	width: 30px;
+	height: 125px;
+	border-right: 5px solid white;
+	float: right;
+	position: relative;
+	top: 0px;
+}
+
+#keys-frame {
+	min-width: 350px;
+	display: block;
+	float: right;
+	text-align: right;
+}
+
+@media all and (max-width: 1300px) {
+	h1 {
+		font-size: 32px;
+		padding: 0 0 50px;
+	}
+	#keys-frame {
+		clear: both;
+		float: none;
+		text-align: left;
+		margin: 0 0 40px 0;
+	}
+	#cursor {
+		float: left;
+		height: 65px;
+		border-right: none;
+		border-left: 3px solid white;
+	}
+	#out {
+		font-size: 64px;
+		line-height: 60px;
+	}
+}
+
+#stay-pressed {
+	display: inline-block;
+	margin: 0;
+	padding: 60px 20px 80px 0;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 54px;
+	height: 28px;
+	top: 4px;
+}
+
+.switch input {display:none;}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	-moz-transition: .4s;
+	-webkit-transition: .4s;
+	transition: .4s;
+	border: 2px solid white;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 20px;
+	width: 20px;
+	left: 2px;
+	bottom: 2px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .slider {
+	background-color: #42CA99;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px #42CA99;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+.slider.round {
+	border-radius: 28px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+.keyboard-choose {
+	float: left;
+	margin: 0 40px 80px 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	cursor: pointer;
+}
+
+.keyboard-choose img {
+	display: block;
+	margin: 0 0 20px 0;
+	padding: 3px;
+	border: 1px solid #A85858;
+	border-radius: 5px;
+}
+
+.keyboard-choose:hover img {
+	border: 1px solid white;
+}
+
+.keyboard-choose.active {
+	cursor: default;
+}
+
+.keyboard-choose.active img {
+	border: 1px solid white;
+}
+
+
+
+
+
+
+
