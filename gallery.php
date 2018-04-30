@@ -22,18 +22,25 @@
 
 <div class="content">
 	<!-- Видео -->
+	<a class="fancybox-media gallery-video" data-fancybox href="https://www.youtube.com/watch?v=vZNF-kAmG9Q">
+		<img src="/images/v-06-t.jpg" alt="" width="250px" height="250px" />
+	</a>
+
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-40.jpg" title=""><img src="/images/i-40-t.jpg" alt="" /></a>
+
+	<!-- Видео -->
 	<a class="fancybox-media gallery-video" data-fancybox href="https://vimeo.com/123415649">
 		<img src="/images/v-01-t.jpg" alt="" />
 	</a>
 
-	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-40.jpg" title=""><img src="/images/i-40-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-41.jpg" title=""><img src="/images/i-41-t.jpg" alt="" /></a>
-	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-42.jpg" title=""><img src="/images/i-42-t.jpg" alt="" /></a>
-
+	
 	<!-- Ссылка на инстаграм -->
 	<a href="https://www.instagram.com/azamatabdulmanov/">
 		<div class="gallery-instagram"><span>/azamatabdulmanov</span></div>
 	</a>
+
+	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-42.jpg" title=""><img src="/images/i-42-t.jpg" alt="" /></a>
 
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-43.jpg" title=""><img src="/images/i-43-t.jpg" alt="" /></a>
 	<a class="fancybox-thumb" data-fancybox="gallery" href="/images/i-44.jpg" title=""><img src="/images/i-44-t.jpg" alt="" /></a>
